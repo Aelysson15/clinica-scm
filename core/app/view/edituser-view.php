@@ -25,7 +25,7 @@
   <div class="form-group">
     <label for="inputEmail1" class="col-lg-2 control-label">Nome de usuário*</label>
     <div class="col-md-6">
-      <input type="text" name="username" value="<?php echo $user->username;?>" class="form-control" required id="username" placeholder="Nombre de usuario">
+      <input type="text" name="username" value="<?php echo $user->username;?>" class="form-control" required id="username" placeholder="Nome de usuario">
     </div>
   </div>
   <div class="form-group">

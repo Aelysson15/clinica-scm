@@ -27,9 +27,9 @@ class UserData {
 		Executor::doit($sql);
 	}
 
-// partiendo de que ya tenemos creado un objecto UserData previamente utilizamos el contexto
+// objeto UserData ja criado, utilizamos o contexto
 	public function update(){
-		$sql = "update ".self::$tablename." set name=\"$this->name\",lastname=\"$this->lastname\",username=\"$this->username\",\",email=\"$this->email\",is_active=$this->is_active,is_admin=$this->is_admin where id=$this->id";
+		$sql = "update ".self::$tablename." set name=\"$this->name\",lastname=\"$this->lastname\",username=\"$this->username\",email=\"$this->email\",is_active=$this->is_active,is_admin=$this->is_admin where id=$this->id";
 		Executor::doit($sql);
 	}
 

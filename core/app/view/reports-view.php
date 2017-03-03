@@ -31,7 +31,7 @@ $payments = PaymentData::getAll();
     </div>
     <div class="col-lg-3">
 		<div class="input-group">
-		  <span class="input-group-addon"><i class="fa fa-support"></i></span>
+		  <span class="input-group-addon"><i class="fa fa-user-md"></i></span>
 <select name="medic_id" class="form-control">
 <option value="">MÉDICO</option>
   <?php foreach($medics as $p):?>

@@ -12,13 +12,13 @@
   <div class="form-group">
     <label for="inputEmail1" class="col-lg-2 control-label">Nome*</label>
     <div class="col-md-6">
-      <input type="text" name="name" required class="form-control" id="name" placeholder="Nombre">
+      <input type="text" name="name" required class="form-control" id="name" placeholder="Nome">
     </div>
   </div>
   <div class="form-group">
     <label for="inputEmail1" class="col-lg-2 control-label">Sobrenome</label>
     <div class="col-md-6">
-      <input type="text" name="lastname"  class="form-control" id="lastname" placeholder="Apellido">
+      <input type="text" name="lastname"  class="form-control" id="lastname" placeholder="Sobrenome">
     </div>
   </div>
   <div class="form-group">
@@ -45,7 +45,7 @@
   <div class="form-group">
     <label for="inputEmail1" class="col-lg-2 control-label">Endereço*</label>
     <div class="col-md-6">
-      <input type="text" name="address" class="form-control"  id="address1" placeholder="Direccion">
+      <input type="text" name="address" class="form-control"  id="address1" placeholder="Endereço">
     </div>
   </div>
   <div class="form-group">
@@ -58,13 +58,13 @@
   <div class="form-group">
     <label for="inputEmail1" class="col-lg-2 control-label">Telefone*</label>
     <div class="col-md-6">
-      <input type="text" name="phone" class="form-control" id="phone1" placeholder="Telefono">
+      <input type="text" name="phone" class="form-control" id="phone1" placeholder="Telefone">
     </div>
   </div>
   <div class="form-group">
     <label for="inputEmail1" class="col-lg-2 control-label">Doença</label>
     <div class="col-md-6">
-      <textarea name="sick" class="form-control" id="sick" placeholder="Enfermedad"></textarea>
+      <textarea name="sick" class="form-control" id="sick" placeholder="Enfermedade"></textarea>
     </div>
   </div>
   <div class="form-group">

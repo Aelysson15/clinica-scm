@@ -30,7 +30,7 @@
       <div class="sidebar" data-color="blue">
       <div class="logo">
         <a href="./" class="simple-text">
-          <img src="/bookmedik-master/logo-clinica.png">
+          <img src="/clinicaescolascm/logo-clinica.png">
         </a>
       </div>
 
@@ -38,13 +38,13 @@
               <ul class="nav">
                   <li class="">
                       <a href="./">
-                          <i class="fa fa-home"></i>
+                          <i class="fa fa-calendar"></i>
                           <p>Início</p>
                       </a>
                   </li>
                   <li>
                       <a href="./?view=reservations">
-                          <i class="fa fa-calendar"></i>
+                          <i class="fa fa-list-alt"></i>
                           <p>Consultas</p>
                       </a>
                   </li>
@@ -56,20 +56,20 @@
                   </li>
                   <li>
                       <a href="./?view=medics">
-                          <i class="fa fa-support"></i>
+                          <i class="fa fa-user-md"></i>
                           <p>Médicos</p>
                       </a>
                   </li>
                   <li>
                       <a href="./?view=categories">
-                          <i class="fa fa-th-list"></i>
-                          <p>Categorias</p>
+                          <i class="fa fa-list-ol"></i>
+                          <p>Categorias/áreas</p>
                       </a>
                   </li>
                   <li>
                       <a href="./?view=reports">
                           <i class="fa fa-area-chart"></i>
-                          <p>Relatório de Consultas</p>
+                          <p>Relatórios/financeiro</p>
                       </a>
                   </li>
                   <li>
