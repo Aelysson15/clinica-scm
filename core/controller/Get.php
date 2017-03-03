@@ -1,14 +1,14 @@
 <?php
 
 
-// 13 de Octubre del 2014
+// 03 de Mar de 2017
 // Get.php
-// @brief esto es algo mucho mas magico
+// @brief isso é algo muito mais magico
 
 class Get {
 	function __get($value){
 		if(!$this->exist($value)){
-			print "<b>GET ERROR</b> El parametro <b>$value</b> que intentas llamar no existe!";
+			print "<b>GET ERROR</b> O parametro <b>$value</b> não existe!";
 			die();
 		}
 		return $_GET[$value];

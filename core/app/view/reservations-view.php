@@ -65,7 +65,7 @@ $medics = MedicData::getAll();
     </div>
 
     <div class="col-lg-2">
-    <button class="btn btn-primary btn-block">Buscar</button>
+    <button class="btn btn-success btn-block">Buscar</button>
     </div>
 
   </div>

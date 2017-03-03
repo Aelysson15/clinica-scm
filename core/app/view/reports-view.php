@@ -77,7 +77,7 @@ $payments = PaymentData::getAll();
 		</div>
     </div>
     <div class="col-lg-6">
-    <button class="btn btn-primary btn-block">Processar</button>
+    <button class="btn btn-success btn-block">Processar</button>
     </div>
 
   </div>

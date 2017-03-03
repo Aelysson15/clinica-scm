@@ -1,7 +1,7 @@
 <?php
 // autoload.php
-// 10 octubre del 2014
-// esta funcion elimina el hecho de estar agregando los modelos manualmente
+// 03 de Mar de 2017
+// esta funcao elimina o feito de está agregando modelos manualmente
 
 
 function __autoload($modelname){

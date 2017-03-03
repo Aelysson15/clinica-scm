@@ -30,7 +30,7 @@
 
 		$users = UserData::getAll();
 		if(count($users)>0){
-			// se existem usuários
+			// se existirem usuários
 			?>
 			<table class="table table-bordered table-hover">
 			<thead>

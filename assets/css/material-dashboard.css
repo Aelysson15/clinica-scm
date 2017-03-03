@@ -1436,6 +1436,7 @@ h2.title {
 }
 
 body {
+  background-image: url("/clinicaescolascm/fundo3.jpg");
   background-color: #EEEEEE;
   color: #3C4858;
 }
@@ -3439,6 +3440,7 @@ footer ul li a {
   display: block;
 }
 footer ul li a:hover {
+  color: green;
   text-decoration: none;
 }
 footer .copyright {

@@ -93,6 +93,7 @@
               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="./"><b>Sistema de Consultas Médicas</b></a>
+
           </div>
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -105,17 +106,18 @@
                 </ul>
               </li>
             </ul>
-<!--
+
+            <!-- BUSCAR -->
             <form class="navbar-form navbar-right" role="search">
               <div class="form-group  is-empty">
-                <input type="text" class="form-control" placeholder="Search">
+                <input type="text" class="form-control" placeholder="Buscar">
                 <span class="material-input"></span>
               </div>
               <button type="submit" class="btn btn-white btn-round btn-just-icon">
                 <i class="fa fa-search"></i><div class="ripple-container"></div>
               </button>
             </form>
-            -->
+            
           </div>
         </div>
       </nav>
@@ -123,13 +125,13 @@
       <div class="content">
       <div class="container-fluid">
 <?php 
-  // puedo cargar otras funciones iniciales
-  // dentro de la funcion donde cargo la vista actual
-  // como por ejemplo cargar el corte actual
+  // pode carregar outras funções iniciais
+  // dentro da funcao onde carrega a view atual
+  // como por exemplo carrega page atual
   View::load("login");
 
 ?>
-</div>
+      </div>
       </div>
 
       <footer class="footer">
@@ -166,7 +168,7 @@
             </ul>
           </nav>
           <p class="copyright pull-right">
-            <a href="http://www.fcm.edu.br/clinicaescola/" target="_blank">Clínica Escola</a> &copy; 2017 
+            <a style="color:green;" href="http://www.fcm.edu.br/clinicaescola/" target="_blank">Clínica Escola</a> &copy; 2017 
           </p>
         </div>
       </footer>

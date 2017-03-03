@@ -1,21 +1,21 @@
 <?php
 // IpLogger
-// la funcion de esta clase es :
-// obtener la ip del cliente que nos esta visitando y conocer si es un visitante
-// o es un usuario registrado.
-// >>> en caso de ser visitante, su actividad se registrara como visitante
-// dicha informacion se eliminara ca 3 dias
-// >>> en caso de ser un usuario registrado, se registrara su actividad
-// entonces cuando este usuario visite el perfil de otro, solo se apuntara en visitas 1vez cada 24horas.
-// la infomacion de usuarios registrados no se eliminara.
+// Função desta classe é:
+// Obter o ip do cliente que está nos visitar e saber se você é um visitante
+// Ou você é um usuário registrado.
+// >>> Em caso de actividade visitante a inscrever-se como um visitante
+// Esta informação será apagada em 3 dias
+// Deve ser um usuário registrado, sua atividade é registrada
+// Quando o usuário visita o perfil de outro, apenas a apontada em visitas 1time cada 24 horas.
+// A informação de utilizador registado não é removido.
 
 class IpLogger {
 
 public static function getRealIP() {
-    if (!empty($_SERVER['HTTP_CLIENT_IP'])) // encaso de que la ip sea compartida
+    if (!empty($_SERVER['HTTP_CLIENT_IP'])) // se o IP é compartilhado
         return $_SERVER['HTTP_CLIENT_IP'];
        
-    if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) // encaso de provenir de un proxy
+    if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) // se a partir de um proxy
         return $_SERVER['HTTP_X_FORWARDED_FOR'];
    
     return $_SERVER['REMOTE_ADDR'];
@@ -52,7 +52,7 @@ $sql = "select * from iplog where realip=\"".self::getRealIP()."\" and user_id="
 		}
 
 		if($found==true){
-			// si es mayor enonces generaremos un id nuevo
+			// se for maior, em seguida, gerar um novo id
 			$id = self::addIP();
 		}else {
 

@@ -9,7 +9,7 @@
 class Widget {
 
 public static function hola_mundo(){
-	return "<h2>Hola Mundo!</h2>";
+	return "<h2>Ola Mundo!</h2>";
 }
 
 public static function custom_text($val){

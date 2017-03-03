@@ -7,6 +7,12 @@ if(Session::getUID()!=""){
 
 ?>
 <br><br><br><br><br>
+<center>
+	<a href="./" class="simple-text">
+	  <img src="/clinicaescolascm/logo-clinica.png">
+	</a>
+</center>
+
 <div class="container">
 <div class="row">
     	<div class="col-md-4 col-md-offset-4">
