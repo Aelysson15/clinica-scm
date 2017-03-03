@@ -18,7 +18,7 @@ $word = new  PhpOffice\PhpWord\PhpWord();
 $alumns = $_SESSION["report_data"];
 
 $section1 = $word->AddSection();
-$section1->addText("REPORTE DE CITAS",array("size"=>22,"bold"=>true,"align"=>"right"));
+$section1->addText("Relatório de Consultas",array("size"=>22,"bold"=>true,"align"=>"right"));
 
 
 $styleTable = array('borderSize' => 6, 'borderColor' => '888888', 'cellMargin' => 40);
@@ -26,13 +26,13 @@ $styleFirstRow = array('borderBottomColor' => '0000FF', 'bgColor' => 'AAAAAA');
 
 $table1 = $section1->addTable("table1");
 $table1->addRow();
-$table1->addCell()->addText("Asunto");
+$table1->addCell()->addText("Assunto");
 $table1->addCell()->addText("Paciente");
-$table1->addCell()->addText("Medico");
-$table1->addCell()->addText("Fecha");
+$table1->addCell()->addText("Médico");
+$table1->addCell()->addText("Data");
 $table1->addCell()->addText("Estado");
-$table1->addCell()->addText("Pago");
-$table1->addCell()->addText("Costo");
+$table1->addCell()->addText("Pagamento");
+$table1->addCell()->addText("Valor");
 
 $total = 0;
 foreach($alumns as $al){
@@ -45,11 +45,11 @@ $table1->addCell(3000)->addText($medic->name." ".$medic->lastname);
 $table1->addCell(3000)->addText($al->date_at." ".$al->time_at);
 $table1->addCell(3000)->addText($al->getStatus()->name);
 $table1->addCell(3000)->addText($al->getPayment()->name);
-$table1->addCell(3000)->addText("$ ".number_format($al->price,2,".",","));
+$table1->addCell(3000)->addText("R$ ".number_format($al->price,2,".",","));
 $total += $al->price;
 }
 
-$section1->addText("TOTAL: $ ".number_format($total,2,".",","),array("size"=>18));
+$section1->addText("TOTAL: R$ ".number_format($total,2,".",","),array("size"=>18));
 
 
 

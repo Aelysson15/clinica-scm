@@ -14,7 +14,7 @@ $payments = PaymentData::getAll();
   <div class="form-group">
     <label for="inputEmail1" class="col-lg-2 control-label">Assunto</label>
     <div class="col-lg-10">
-      <input type="text" name="title" required class="form-control" id="inputEmail1" placeholder="Asunto">
+      <input type="text" name="title" required class="form-control" id="inputEmail1" placeholder="Assunto">
     </div>
   </div>
   <div class="form-group">
@@ -42,7 +42,7 @@ $payments = PaymentData::getAll();
   <div class="form-group">
     <label for="inputEmail1" class="col-lg-2 control-label">Data/Hora</label>
     <div class="col-lg-5">
-      <input type="date" name="date_at" required class="form-control" id="inputEmail1" placeholder="Fecha">
+      <input type="date" name="date_at" required class="form-control" id="inputEmail1" placeholder="Data">
     </div>
     <div class="col-lg-5">
       <input type="time" name="time_at" required class="form-control" id="inputEmail1" placeholder="Hora">
@@ -57,7 +57,7 @@ $payments = PaymentData::getAll();
     <div class="form-group">
     <label for="inputEmail1" class="col-lg-2 control-label">Doença</label>
     <div class="col-lg-10">
-    <textarea class="form-control" name="sick" placeholder="Enfermedad"></textarea>
+    <textarea class="form-control" name="sick" placeholder="Enfermedade"></textarea>
     </div>
   </div>
       <div class="form-group">
@@ -98,7 +98,7 @@ $payments = PaymentData::getAll();
     <div class="col-lg-10">
 <div class="input-group">
   <span class="input-group-addon"><i class="fa fa-usd"></i></span>
-  <input type="text" class="form-control" name="price" placeholder="Costo">
+  <input type="text" class="form-control" name="price" placeholder="Valor">
 </div>
     </div>
   </div>

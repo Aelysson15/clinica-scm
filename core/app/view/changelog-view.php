@@ -5,7 +5,7 @@
 <h4> v2.0</h4>
 <ul>
 	<li>Novos campos em pacientes: genero, data de nacimento, sintoma, medicamento, alergia</li>
-	<li>Novos campos em médicos: genero, fecha de nacimiento </li>
+	<li>Novos campos em médicos: genero, data de nacimiento </li>
 	<li>Novos campos ao inserir consulta: doença, sintomas, medicamentos, estado, tipo de pagamento e preço.</li>
 	<li>Relatórios por médico, paciente, intervalo de datas, estado e tipo de pagamento +download em formato word</li>
 </ul>

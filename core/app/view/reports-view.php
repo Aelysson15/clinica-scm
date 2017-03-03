@@ -161,7 +161,7 @@ if($_GET["status_id"]!=""||$_GET["pacient_id"]!="" ||$_GET["medic_id"]!="" ||$_G
 				<td><?php echo $user->date_at." ".$user->time_at; ?></td>
 				<td><?php echo $user->getStatus()->name; ?></td>
 				<td><?php echo $user->getPayment()->name; ?></td>
-				<td>$ <?php echo number_format($user->price,2,".",",");?></td>
+				<td>R$ <?php echo number_format($user->price,2,".",",");?></td>
 				</tr>
 				<?php
 				$total += $user->price;
@@ -170,7 +170,7 @@ if($_GET["status_id"]!=""||$_GET["pacient_id"]!="" ||$_GET["medic_id"]!="" ||$_G
 			echo "</table>";
 			?>
 			<div class="panel-body">
-			<h1>Total: $ <?php echo number_format($total,2,".",",");?></h1>
+			<h1>Total: R$ <?php echo number_format($total,2,".",",");?></h1>
 			<a href="./report/report-word.php" class="btn btn-default"><i class="fa fa-download"> Baixar (.docx)</i></a>
 
 			</div>

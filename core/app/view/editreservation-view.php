@@ -101,7 +101,7 @@ $payments = PaymentData::getAll();
     <div class="col-lg-10">
 <div class="input-group">
   <span class="input-group-addon"><i class="fa fa-usd"></i></span>
-  <input type="text" class="form-control" value="<?php echo $reservation->price;?>" name="price" placeholder="Costo">
+  <input type="text" class="form-control" value="<?php echo $reservation->price;?>" name="price" placeholder="Valor">
 </div>
     </div>
   </div>

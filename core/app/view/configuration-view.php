@@ -8,21 +8,21 @@
   <div class="form-group">
     <label for="inputEmail1" class="col-lg-4 control-label">Senha atual</label>
     <div class="col-lg-8">
-      <input type="password" class="form-control" id="password" name="password" placeholder="Contraseña Actual">
+      <input type="password" class="form-control" id="password" name="password" placeholder="Senha atual">
     </div>
   </div>
 
   <div class="form-group">
     <label for="inputPassword1" class="col-lg-4 control-label">Nova Senha</label>
     <div class="col-lg-8">
-      <input type="password" class="form-control"  id="newpassword" name="newpassword" placeholder="Nueva Contraseña">
+      <input type="password" class="form-control"  id="newpassword" name="newpassword" placeholder="Nova senha">
     </div>
   </div>
 
   <div class="form-group">
     <label for="inputPassword1" class="col-lg-4 control-label">Confirmar Nova Senha</label>
     <div class="col-lg-8">
-      <input type="password" class="form-control" id="confirmnewpassword" name="confirmnewpassword" placeholder="Confirmar Nueva Contraseña">
+      <input type="password" class="form-control" id="confirmnewpassword" name="confirmnewpassword" placeholder="Confirmar Nova senha">
     </div>
   </div>
 
@@ -39,14 +39,14 @@
 $("#changepasswd").submit(function(e){
 	if($("#password").val()=="" || $("#newpassword").val()=="" || $("#confirmnewpassword").val()==""){
 		e.preventDefault();
-		alert("No debes dejar espacios vacios.");
+		alert("Não deixe espaços vazios.");
 
 	}else{
 		if($("#newpassword").val() == $("#confirmnewpassword").val()){
 //			alert("Correcto");			
 		}else{
 			e.preventDefault();
-			alert("Las nueva contraseña no coincide con la confirmacion.");
+			alert("Senhas não combinam.");
 		}
 	}
 });
